@@ -1,6 +1,6 @@
 import React from "react"
 import Animal from "./animal/Animal"
-import "./Animals.css"
+import "./animal/Animal.css"
 
 export default () => (
     <>
