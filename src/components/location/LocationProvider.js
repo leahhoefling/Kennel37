@@ -36,8 +36,10 @@ export const LocationProvider = (props) => {
         Load all animals when the component is mounted. Ensure that
         an empty array is the second argument to avoid infinite loop.
     */
+    //basically this is "do this when the component mounts" OR do this if the data inside the array at the end changes... if there's nothing in the array then it is just on mount
     useEffect(() => {
         getLocations()
+        //this empty array prevents an infinite loop- V IMPORTANT
     }, [])
 
     useEffect(() => {
