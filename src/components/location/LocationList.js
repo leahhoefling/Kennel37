@@ -4,6 +4,7 @@ import Location from "./Location"
 import "./Location.css"
 
 export default () => {
+
     const { locations } = useContext(LocationContext)
 
     return (

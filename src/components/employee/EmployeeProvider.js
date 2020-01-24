@@ -40,7 +40,7 @@ export const EmployeeProvider = (props) => {
     }, [])
 
     useEffect(() => {
-        console.log("****  EMPLOYEE APPLICATION STATE CHANGED  ****", employees)
+        console.log("****  EMPLOYEE APPLICATION STATE CHANGED  ****")
         // this array basically says to update the state when the thing in the array changes
     }, [employees])
 
